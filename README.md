@@ -1,7 +1,5 @@
 # RoboND-DeepLearning-Project
-This project is using a Fully Convolutional Network (FCN) for semantig segmentation  in order to label the pixels of a person to follow  (to identify and track a target) up in images. I tested with several combination of epochs, batch sizes, learning rates among otheres.
-
-A  deep neural network  has been trained to identify and track a target in simulation. So-called “follow me” applications like this are key to many fields of robotics and the very same techniques you apply here could be extended to scenarios like advanced cruise control in autonomous vehicles or human-robot collaboration in industry.
+This project is using a Fully Convolutional Network (FCN) for semantig segmentation  in order to label the pixels of a person to follow  up (to identify and track a target) in images. A  deep neural network  has been trained to identify and track a target in simulation. So-called “follow me” applications like this are key to many fields of robotics and the very same techniques you apply here could be extended to scenarios like advanced cruise control in autonomous vehicles or human-robot collaboration in industry.
 
 
 In a Fully Convolutional Layer (FCN) consist of  parts:
@@ -14,15 +12,16 @@ The following image shows the network architecture used;
 plot_model (model, to_file='model.png')
 ```
 **This project implemented the folowing steps:**
-# Collecting the data 
-# Implement Fully convolutional Network for Semantig Segmentation
-#* Define the encoder block
-#* Define decoder block
-#* define fcn_model
-#* chose hyper parameters
-#* Save the model with its waights
-# Train the model 
-# Check the score accurancy
-# run  the model saved in the simulator
+1. Collecting the data 
+2. Implement Fully convolutional Network for Semantig Segmentation
+  * Define the encoder block
+  * Define decoder block
+  * define fcn_model
+  * chose hyper parameters
+  * Save the model with its waights
+3. Train the model 
+4. Check the score accurancy
+5. run  the model saved in the simulator
 
 
+I tested with several combination of epochs, batch sizes, learning rates among otheres.
