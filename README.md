@@ -53,8 +53,9 @@ steps_per_epoch = 400 # the number of batches per epoch
 validation_steps = 100 # the number of batches to validate on 
 workers = 2 #maximum number of processes.
 ```
-I trained the FCN with 10 epoch in order to get the expected accurancy. I ran the model in my using tensorflow and a GPU. The  batch size and learning rate are linked. If the batch size is too small then the gradients will become more unstable and would need to reduce the learning rate, in this case the batch size is 64. The hyper tuning performed is based on empirical validation. 
+I trained the FCN with 10 epoch in order to get the expected accurancy. I ran the model in my using tensorflow and a GPU. The  batch size and learning rate are linked. If the batch size is too small then the gradients will become more unstable and would need to reduce the learning rate, in this case the batch size is 64. The hyper tuning performed is based on empirical validation. (I have tested with several combination of epochs, batch sizes, learning rates among otheres.)
 This is the final result of epoch 10:
+
 ![Alt text](/images/epoch10.png)
 ```
 400/400 [==============================] - 495s - loss: 0.0151 - val_loss: 0.0204
@@ -72,10 +73,3 @@ This is the final result of epoch 10:
 
 ### 5.run  the model saved in the simulator
 Check the following video:
-
-
-
-The following image shows the network architecture used;
-
-
-I tested with several combination of epochs, batch sizes, learning rates among otheres.
