@@ -1,7 +1,7 @@
 # RoboND-DeepLearning-Project
 This project is using a Fully Convolutional Network (FCN) for semantig segmentation  in order to label the pixels of a person to follow  up (to identify and track a target) in images. A  deep neural network  has been trained to identify and track a target in simulation. So-called “follow me” applications like this are key to many fields of robotics and the very same techniques you apply here could be extended to scenarios like advanced cruise control in autonomous vehicles or human-robot collaboration in industry.
 
-## This project implemented the folowing steps:
+## This project implemented the following steps:
 ### 1. Collecting the data 
 There are data provided by Udacity, however for my model (Explained in the second step) that data was not enought to get the desirable accurancy. I added the following scenarios for the collected data:
 * target is near in a dense crowd (images while following the target).
