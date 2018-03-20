@@ -13,7 +13,6 @@ There are data provided by Udacity, however for my model (Explained in the secon
 * no target only dense crowd (images while at patrol without target).
 * the target is far in a dense crowd (images while at patrol with target).
 ![Alt text](/images/capture_data1.png)
-![Alt text](/images/capture_data2.png)
 
 ### 2. Implement Fully convolutional Network for Semantic Segmentation (Understanding of the network architecture)
 ![Alt text](/images/fcn.png)
